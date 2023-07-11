@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
-<!--    <odoo noupdate="1">-->
+<odoo noupdate="1">
     <record id="category_fiction" model="library.book.category">
         <field name="name">Fiction</field>
     </record>

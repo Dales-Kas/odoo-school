@@ -4,12 +4,11 @@
 
 {
     'name': 'School Lesson 6 2',
-    'version': '15.0.0.0.1',
+    'version': '16.0.1.0.1',
     'category': 'Extra Tools',
     'summary': """
         Odoo School
-        Lesson 6-2: Access rights and record rules. 
-    """,
+        Lesson 6-2: Access rights and record rules.""",
     'license': 'LGPL-3',
     'author': 'Garazd Creation',
     'website': 'https://garazd.biz',
