@@ -14,10 +14,13 @@ class LibraryBook(models.Model):
     user_id = fields.Many2one(
         comodel_name='res.users',
         string='Responsible',
+        default=lambda self: self.env.ref('base.user_demo'),
     )
     active = fields.Boolean(
-        string='Active',
         default=True,
+    )
+    category_id = fields.Many2one(
+        comodel_name='library.book.category'
     )
 
     @api.onchange('reader_id')
@@ -29,4 +32,3 @@ class LibraryBook(models.Model):
         self.ensure_one()
         self.reader_id = self.env.ref(
             'school_lesson_6_1.res_partner_customer').id
-

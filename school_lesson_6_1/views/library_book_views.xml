@@ -10,6 +10,7 @@
                 <field name="reader_id"/>
                 <field name="taken_date" optional="show"/>
                 <field name="user_id" optional="hide"/>
+                <field name="category_id" optional="hide"/>
             </tree>
         </field>
     </record>
@@ -31,6 +32,7 @@
                         <field name="taken_date"/>
                         <separator colspan="2"/>
                         <field name="user_id" options="{'no_open': True, 'no_create': True}"/>
+                        <field name="category_id"/>
                     </group>
                 </sheet>
             </form>
