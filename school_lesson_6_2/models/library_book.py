@@ -22,5 +22,5 @@ class LibraryBook(models.Model):
         })
 
     def action_scrap_book(self):
-        self.check_access_rule('write')
+        # self.check_access_rule('write')
         self.write({'active': False})

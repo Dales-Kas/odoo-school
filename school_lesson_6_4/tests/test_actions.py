@@ -3,7 +3,7 @@ from odoo.tests import tagged
 from odoo.exceptions import UserError
 
 
-@tagged('post_install', '-at_install', 'library')
+@tagged('post_install', '-at_install', 'library', 'odooschool')
 class TestAccessRights(TestCommon):
 
     def test_action_take_in(self):
@@ -16,3 +16,12 @@ class TestAccessRights(TestCommon):
         # A library admin can return a book
         self.book_demo.with_user(self.library_admin).action_take_in()
         self.assertFalse(self.book_demo.reader_id)
+
+    def tests_action_scrap_book(self):
+        # A user can't delete book
+        with self.assertRaises(UserError):
+            self.book_demo.with_user(self.library_user).action_scrap_book()
+
+        # A library admin can delete book
+        self.book_demo.with_user(self.library_admin).action_scrap_book()
+        # self.assertFalse(self.book_demo)
