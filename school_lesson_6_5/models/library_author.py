@@ -43,6 +43,7 @@ class LibraryAuthor(models.Model):
                         author.birth_date.month,
                         author.birth_date.day))
                 })
+        return None
 
     def get_bk_cnt(self):
         """This sample method shows a BAD approach for naming."""

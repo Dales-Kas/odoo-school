@@ -10,6 +10,7 @@
                 <notebook>
                     <page string="Description" name="description">
                         <field name="description"/>
+                        <field name="category_id"/>
                     </page>
                 </notebook>
             </xpath>

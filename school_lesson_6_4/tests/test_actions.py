@@ -16,4 +16,3 @@ class TestAccessRights(TestCommon):
         # A library admin can return a book
         self.book_demo.with_user(self.library_admin).action_take_in()
         self.assertFalse(self.book_demo.reader_id)
-

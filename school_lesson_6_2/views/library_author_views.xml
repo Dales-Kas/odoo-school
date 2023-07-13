@@ -24,6 +24,10 @@
                     <group>
                         <field name="birth_date" />
                     </group>
+                    <group>
+                        <field name="can_edit_by_trainee" />
+                        <field name="create_date" />
+                    </group>
                 </sheet>
             </form>
         </field>
@@ -37,6 +41,8 @@
                 <field name="first_name" />
                 <field name="last_name" />
                 <field name="birth_date" />
+                <field name="can_edit_by_trainee" />
+                <field name="create_date" />
             </tree>
         </field>
     </record>

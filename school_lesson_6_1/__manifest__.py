@@ -22,6 +22,7 @@
         'data/library_category_data.xml',
         'views/library_book_menus.xml',
         'views/library_book_views.xml',
+        'views/library_category_views.xml',
     ],
     'demo': [
         'data/res_partner_demo.xml',
