@@ -41,9 +41,9 @@ Credits
 Authors
 -------
 
-* Garazd Creation
+* Dales Kas
 
 Contributors
 ------------
 
-* Yurii Razumovskyi <support@garazd.biz>
+* dales kas <dales.p500@gmail.com>

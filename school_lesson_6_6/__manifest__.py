@@ -1,23 +1,19 @@
-# Copyright © 2022 Garazd Creation (<https://garazd.biz>)
-# @author: Yurii Razumovskyi (<support@garazd.biz>)
-# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl-3.0.html).
-
 {
-    'name': 'School Lesson 6 6',
+    'name': 'School Lesson 6.6',
     'version': '16.0.1.0.0',
     'category': 'Extra Tools',
     'summary': """
-        Odoo School Lesson 6-6: Module publication on Odoo Apps.""",
+        Odoo School Lesson 6-6: Restrict duplicate emails for partners""",
     'license': 'LGPL-3',
-    'author': 'Garazd Creation',
-    'website': 'https://garazd.biz',
+    'author': 'Dales Kas',
+    'website': 'https://t.me/dales_kas',
     'depends': [
-        'school_lesson_6_5',
+        'base',
     ],
-    'price': 10.0,
+    'price': 0,
     'currency': 'EUR',
     'live_test_url': 'https://demo.odoo.com/odoo-school',
-    'support': 'support@garazd.biz',
+    'support': 'dales.p500@gmail.com',
     'images': ['static/description/banner.png', 'static/description/icon.png'],
     'application': False,
     'installable': True,
